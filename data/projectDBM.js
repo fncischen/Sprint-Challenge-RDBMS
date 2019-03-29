@@ -12,8 +12,8 @@ function getProjects(){
 
 function getProjectById(id){
     return db("projects")
-    .where({id : id})
-    .join("actions", "actions.name", "=", "projects.name");
+    .where({"id" : id})
+    .join("actions", "actions.project_name", "=", "projects.name");
 }
 
 function insertProject(project){
