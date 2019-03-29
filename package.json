@@ -5,6 +5,7 @@
     "knex": "^0.16.3",
     "migrate": "^1.6.2",
     "nodeman": "^1.1.2",
+    "nodemon": "^1.18.10",
     "sqlite3": "^4.0.6"
   },
   "name": "sprint-challenge-rdbms",
@@ -13,8 +14,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
