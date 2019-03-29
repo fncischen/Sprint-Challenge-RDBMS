@@ -1,5 +1,4 @@
-const express = require ("express");
-const router = express.Router();
+const router = require("express").Router();
 const actions = require("../data/actionDBM.js");
 
 router.get("/", (res,req) => {
@@ -19,3 +18,5 @@ router.post("/", (res,req) => {
     .then(result => res.status(200).json(result))
     .catch(() => res.status(500).json({errorMessage: "There was an error in posting your data"}));
 })
+
+module.exports = router; 
