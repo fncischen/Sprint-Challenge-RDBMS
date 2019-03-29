@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "express": "^4.16.4",
+    "init": "^0.1.2",
+    "knex": "^0.16.3",
+    "migrate": "^1.6.2",
+    "nodeman": "^1.1.2",
+    "sqlite3": "^4.0.6"
+  },
+  "name": "sprint-challenge-rdbms",
+  "description": "This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fncischen/Sprint-Challenge-RDBMS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fncischen/Sprint-Challenge-RDBMS/issues"
+  },
+  "homepage": "https://github.com/fncischen/Sprint-Challenge-RDBMS#readme"
+}
