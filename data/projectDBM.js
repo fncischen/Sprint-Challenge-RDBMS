@@ -12,7 +12,7 @@ function getProjects(){
 
 function getProjectById(id){
     return db("projects")
-    .where({"id" : id})
+    .where({"projects.id" : id})
     .join("actions", "actions.project_name", "=", "projects.name");
 }
 

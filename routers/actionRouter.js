@@ -8,7 +8,7 @@ router.get("/", (req,res) => {
 })
 
 router.get("/:id", (req,res) => {
-    actions.getActionId(res.params.id)
+    actions.getActionId(req.params.id)
     .then(result => res.status(200).json(result))
     .catch(() => res.status(500).json({errorMessage: "There was an error in retrieving your data"}));
 })
